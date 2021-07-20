@@ -1,15 +1,14 @@
 # JQuery-Slider
-##### Slider with three image changing effects
-##### Слайдер с трёмя эффектами изменения изображения
+### Slider with three image changing effects
 
-###[Codepen Example](https://codepen.io/afanasiythecat/pen/GRmvqyo)
+[Codepen Example](https://codepen.io/afanasiythecat/pen/GRmvqyo)
 
 - [English](#eng)
 - [Русский](#rus)
 ____
 <a name="eng"></a> 
 
-#####Quick start:
+### Quick start:
 - Include __sliderClass.js__ and __styles.css__
 - Create element with `class=slider`. Set size of this element
 - Put images for slider in `<img>` inside your `class=slider` element 
@@ -28,7 +27,8 @@ element as parameter in constructor
     let slider = new Slider($("#slider"));
 ```
 ___
-#####Options:
+### Options:
+
 **Slider** constructor have parameters:
 - `slider_elem` - your slider element
 - `switch_mode='slide'` - effect of changing image.
@@ -41,7 +41,7 @@ the default buttons will be set
 ___
 <a name="rus"></a> 
 
-#####Quick start:
+### Quick start:
 - Подключите __sliderClass.js__ и __styles.css__
 - Создайте элемент с классом `class=slider`. Установите размер для этого элемента
 - Укажите изображения для слайдера  в `<img>` элементе внтури  `class=slider` элемента 
@@ -60,7 +60,8 @@ ___
     let slider = new Slider($("#slider"));
 ```
 ___
-#####Настройки:
+### Настройки:
+
 **Slider** конструктор имеет следующие аргументы:
 - `slider_elem` - ваш элемент слайдера
 - `switch_mode='slide'` - эффект переключения изображения
