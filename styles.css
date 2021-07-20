@@ -1,0 +1,28 @@
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+overflow: hidden;
+}
+.slider_image {
+    object-fit: contain;
+    max-height: 100%;
+    width: 100%;
+}
+.slider_btn {
+    position: absolute;
+    max-width: 20%;
+    object-fit: contain;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10em;
+    opacity: 0.1;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.slider_btn:hover {
+    opacity: 0.3;
+}
